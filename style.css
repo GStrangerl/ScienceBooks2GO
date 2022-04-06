@@ -117,6 +117,36 @@ a {
 
 #Summe{
     text-size-adjust: 20px;
+    margin-bottom: 40px;
+    font-size: bold;
+}
+#control_bought{
+   
+    margin-right: 40px;
+   
+}
+.ordered{
+    float: right;
+    background-color: rgb(195, 214, 251);
+    border-style: groove;
+    text-decoration: none;
+    margin-right: 40px;
+   
+    
+}
+.ordered a{
+    font-size:x-small;
+    text-decoration: none;
+}
+#adresse{
+    text-decoration: none;
+}
+#overview{
+    border-style:dotted;
+    border-color: #c15b0d;
+    padding-left: 20px;
+    font-size:x-small;
+    font-style:bold ;
 }
 .footer {
  
