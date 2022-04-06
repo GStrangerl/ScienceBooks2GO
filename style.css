@@ -128,18 +128,12 @@ a {
 .ordered{
     float: right;
     background-color: rgb(195, 214, 251);
-    border-style: groove;
-    text-decoration: none;
+    border-style:inset;
     margin-right: 40px;
-   
-    
 }
-.ordered a{
-    font-size:x-small;
-    text-decoration: none;
-}
+
 #adresse{
-    text-decoration: none;
+    list-style: none;
 }
 #overview{
     border-style:dotted;
@@ -147,6 +141,24 @@ a {
     padding-left: 20px;
     font-size:x-small;
     font-style:bold ;
+}
+#border{
+    margin-bottom: 200px;
+    margin-top: 30px;
+    margin-right: 40px;
+    padding-left: 20px;
+  
+    
+    
+}
+.ordered :hover{
+    
+    color: white;
+    background-color: #293133;
+}
+.ordered a{
+    font-size:x-small;
+    
 }
 .footer {
  
